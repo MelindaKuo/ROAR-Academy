@@ -11,7 +11,7 @@ plt.ylim(1.0, 4.0)
 plt.xlim(1.0, 3.0)
 
 
-plt.xticks(np.arange(1.0, 3.1, 0.5),['1.0', '1.5', '2.0', '2.5', '3.0'])
+plt.xticks([1.0,1.5,2.0,2.5,3.0])
 
 
 plt.plot(x_points, y_points)

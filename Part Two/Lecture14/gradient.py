@@ -43,10 +43,10 @@ def grad(aa):
     grad_aa[1] = - 1/sample_count * np.sum(update_vector)
     return grad_aa
 
-aa = np.array([-5, 6]) #changed aa 
+aa = np.array([-5, 6])
 delta = np.inf
 epsilon = 0.001
-learn_rate = 0.002   # changed learn rate
+learn_rate = 0.1
 step_count = 0
 ax2.scatter(aa[0], aa[1], penalty(aa[0],aa[1]), c='b', s=100, marker='*')
 # Update vector aa
